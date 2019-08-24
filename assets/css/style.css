@@ -1,0 +1,166 @@
+/* Backgrounds */
+body {
+	background-image: url("../images/dr.png");
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+}
+
+.titlebar {
+	margin-top: 30%;
+	background-color: rgb(43, 41, 41);
+    opacity: 0.7;
+	overflow: hidden;
+	height: 80px;
+	
+}
+
+.titlebar-text {
+	color: rgb(253, 252, 252);
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: normal;
+	font-size: 20px;
+	margin-bottom: 1%;
+	margin-top: 3%;
+}
+
+/*Jumbotron and container styles */
+.jumbotron, jumbotron-fluid {
+	width: 100%;
+	margin-top: 1.5%;
+	background: rgba (76, 175, 80, 0.1);
+	border-radius: 0px 0px 0px 0px;
+	border-left: 0%;
+	border-right: 0%;
+	padding-top: 0%;
+}
+
+.container {
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.container-fluid {
+	padding-left: 0%;
+	padding-right: 0%;
+	border-radius: 0px 0px;
+}
+
+.jumbotron h1 {
+    font-size: 28px;
+}
+
+.text-center {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 22px;
+    color: rgb(24, 23, 23);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+.jumbotron p {
+	font-size: 17px;
+}
+
+/*Game section */
+#gameSection, #scoreSection {
+	background-color: #ffffff;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+/* Buttons */
+#start {
+	background-color: rgb(173, 7, 7); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:auto;
+    display:block;
+}
+
+.answer-button {
+	background-color:#eee; 
+    border: 1px solid rgb(66, 64, 64);
+    color: rgb(24, 23, 23);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: auto;
+}
+
+#reset {
+    background-color:#eee; 
+    border: 1px solid rgb(66, 64, 64);
+    color: rgb(24, 23, 23);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%;
+    margin-right: 50%;
+    margin-top: 2%;
+}
+
+/* Subwrapper */
+
+.subwrapper {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+h1 {
+	font-family: 'Lexend Deca', sans-serif;
+	font-size: 15px;
+    color: rgb(24, 23, 23);
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.center-block {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+.text-center {
+    text-align:center
+}
+
+
+
+
+

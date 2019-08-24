@@ -13,7 +13,7 @@ $(document).on('click', '#reset', function(){
 
 var questions = [{
     question: "What was an early cure for rheumatism?",
-    answers:["Rub you joints with egg whites", "Wear a donkey skin", "Bathe in a pond during a new moon"],
+    answers:["Rub your joints with egg whites", "Wear a donkey skin", "Bathe in a pond during a new moon"],
     correctAnswer: "Wear a donkey skin",
 }, {
     question: "What was a common remedy for baldness?",
@@ -33,11 +33,11 @@ var questions = [{
     correctAnswer: "Bull's blood",
 }, {
     question: "What were you to ingest if you had asthema?",
-    answers:["Young frogs", "Fermented sheep gut", "Pig intestines"],
+    answers:["Young frogs", "Fermented sheep guts", "Pig intestines"],
     correctAnswer: "Young frogs",
 }, {
     question: "What was worn in a poltice bag around the neck for internal bleeding?",
-    answers:["Fox's foot", "Dried toad", "Dead man's toenail clippings"],
+    answers:["Fox's foot", "Dried toad", "Toenail clippings"],
     correctAnswer: "Dried toad",
 
 }];
@@ -59,7 +59,7 @@ var game = {
     },
     loadQuestion: function(){
         timer = setInterval(game.countdown, 1000);
-        $('#subwrapper').html("<h2 Time Remaining <span id='counter'>30</ span> Seconds </h2>")
+        $('#subwrapper').html("<h2 Time Remaining: " + "<span id='counter'>30</ span> Seconds </h2>")
         $('#subwrapper').append('<h2>'+questions[game.currentQuestion].question+'</h2>');
         for(var i=0; i<questions[game.currentQuestion].answers.length;i++){
             $('#subwrapper').append('<button class="answer-button" id="button-'+i+'" data-name="'+questions[game.currentQuestion].answers[i]+'">'+questions[game.currentQuestion].answers[i]+'</button>');
